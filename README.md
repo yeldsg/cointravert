@@ -11,6 +11,16 @@ CoinTraVert converts between world currencies using real-time rates from the Exc
 
 ---
 
+## Screenshots
+
+<img src="docs/screenshots/converter.png" alt="Converter screen converting 1,000 US dollars to Philippine pesos, with the peso rate board">
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/login.png" alt="Login screen"><br><sub>Login screen</sub></td>
+  </tr>
+</table>
+
 ## Features
 
 - **User accounts:** sign up and log in, with duplicate-email and input validation
@@ -26,6 +36,13 @@ CoinTraVert converts between world currencies using real-time rates from the Exc
 - Password checks use a constant-time comparison.
 - The API key is loaded from a local `.env` file and is never committed to the repository.
 - All database queries use parameterized statements.
+
+## My Role
+
+I worked on this team project as the **Desktop Application Developer** and led the team as **Project Manager**.
+
+- Integrated the ExchangeRate API to fetch real-time rates for currency conversions.
+- Designed a desktop interface in CustomTkinter, with conversion history and quick currency selection.
 
 ## Tech Stack
 
@@ -85,4 +102,4 @@ CoinTraVert was built as a team project for a programming course (October – De
 ## Author
 
 **Kathrina Marhiel Zamora** · BS Information Technology, Pampanga State University
-GitHub: [@yeldsg](https://github.com/yeldsg)
+GitHub: [@yeldsg](https://github.com/yeldsg) · Portfolio: [yeldsg-portfolio.vercel.app](https://yeldsg-portfolio.vercel.app)
